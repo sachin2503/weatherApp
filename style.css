@@ -213,15 +213,32 @@ h1{
 }
 
 @media all and  (max-width:400px){
+
+    .wrapper{
+        height: 145vh;
+    }
+
     .parameter-container{
-        width: 90%;
-        display: flex;
+        width: 100%;
+      
         flex-direction: column;
         gap: 20px 20px;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2rem;
+       
     }
+
+    .parameter{
+        width: 100%;
+    }
+
+    .tab-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tab{
+      margin:  0px 10px 0px 10px ;
+    }
+
 }
 
 
